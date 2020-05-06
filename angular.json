@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "EmpDataProject"
+    }
+  },
+  "defaultProject": "EmpDataProject",
+  "cli": {
+    "analytics": "6a5898ff-21e1-4d62-b8d4-7cdb9aa4d0cd"
+  }
 }
