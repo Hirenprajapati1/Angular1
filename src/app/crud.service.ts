@@ -25,8 +25,8 @@ export class CrudService {
   UpdateEmployee(){
     return this.http.get(environment.EmpUrl + 'api/EmployeeMain/UpdateEmployee');
   }
-  DeleteEmployee(){
-    return this.http.get(environment.EmpUrl + '/api/EmployeeMain/DeleteEmployee');
+  DeleteEmployee(id){
+    return this.http.get(environment.EmpUrl + '/api/EmployeeMain/DeleteEmployee/'+id);
   }
 
 }
