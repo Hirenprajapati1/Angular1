@@ -14,6 +14,12 @@
     border: none;
     background: darkgray;
 }
+.div3{
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: rgb(206, 191, 191);
+}
+
 
 .btn1{
     padding: 15px;

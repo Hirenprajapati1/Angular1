@@ -14,8 +14,11 @@ export class GetEmployeeComponent implements OnInit {
 
 
   public DeleteEmployee(id:number){
+    if (confirm('Are you sure to delete this record ?'))
+    {
     let resp= this.service.DeleteEmployee(id);
     resp.subscribe((data)=>this.EmployeeData=data);
+    }
    }
    
 
